@@ -61,10 +61,10 @@ technicianName.addEventListener('change', (e) => {
   console.log(newForm.technicianName);
 })
 
-let location = document.querySelector('input#location')
-location.addEventListener('change', (e) => {
-	newForm.location = e.target.value;
-  console.log(newForm.location);
+let serviceLocation = document.querySelector('input#serviceLocation')
+serviceLocation.addEventListener('change', (e) => {
+	newForm.serviceLocation = e.target.value;
+  console.log(newForm.serviceLocation);
 })
 
 let dangerous = document.querySelector('input#dangerous')
