@@ -103,13 +103,13 @@ goalSummary1.addEventListener('change', (e) => {
   console.log(newForm.goalSummary1);
 })
 
-let goalDetails1 = document.querySelector('input#goalDetails1')
+let goalDetails1 = document.getElementById('input#goalDetails1')
 goalDetails1.addEventListener('change', (e) => {
 	newForm.goalDetails1 = e.target.value;
   console.log(newForm.goalDetails1);
 })
 
-let goalSummaryFollowUp1 = document.querySelector('input#goalSummaryFollowUp1')
+let goalSummaryFollowUp1 = document.getElementById('input#goalSummaryFollowUp1')
 goalSummaryFollowUp1.addEventListener('change', (e) => {
 	newForm.goalSummaryFollowUp1 = e.target.value;
   console.log(newForm.goalSummaryFollowUp1);
@@ -121,25 +121,25 @@ goalSummary2.addEventListener('change', (e) => {
   console.log(newForm.goalSummary2);
 })
 
-let goalDetails2 = document.querySelector('input#goalDetails2')
+let goalDetails2 = document.getElementById('input#goalDetails2')
 goalDetails2.addEventListener('change', (e) => {
 	newForm.goalDetails2 = e.target.value;
   console.log(newForm.goalDetails2);
 })
 
-let goalSummaryFollowUp2 = document.querySelector('input#goalSummaryFollowUp2')
+let goalSummaryFollowUp2 = document.getElementById('input#goalSummaryFollowUp2')
 goalSummaryFollowUp2.addEventListener('change', (e) => {
 	newForm.goalSummaryFollowUp2 = e.target.value;
   console.log(newForm.goalSummaryFollowUp2);
 })
 
-let staffName = document.querySelector('staffName')
+let staffName = document.querySelector('input#staffName')
 staffName.addEventListener('change', (e) => {
     newForm.staffName = e.target.value;
     console.log(newForm.staffName)
 })
 
-let todaysDate = document.querySelector('todaysDate')
+let todaysDate = document.querySelector('input#todaysDate')
 todaysDate.addEventListener('change', (e) => {
     newForm.todaysDate = e.target.value;
     console.log(newForm.todaysDate)
