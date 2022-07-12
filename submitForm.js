@@ -4,7 +4,7 @@ const formName = 'IISSSession'
 console.log('form: ' + formName)
 let newForm = {}
 let questionType = ['reportable', 'selfInjury', 'aggressive', 'compliance', 'goal1-', 'goal2-', 'trials1-', 'trial2-', 'prompting', 'prompting2-']
-
+initializeOnClicks()
 
 function initializeOnClicks(questionType) {
     questionType.forEach((type) => {
