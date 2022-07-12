@@ -85,13 +85,13 @@ eat.addEventListener('change', (e) => {
   console.log(newForm.eat);
 })
 
-let goalComments1 = document.querySelector('input#goalComments1')
+let goalComments1 = document.getElementById('goalComments1')
 goalComments1.addEventListener('change', (e) => {
 	newForm.goalComments1 = e.target.value;
   console.log(newForm.goalComments1);
 })
 
-let goalComments2 = document.querySelector('input#goalComments2')
+let goalComments2 = document.getElementById('goalComments2')
 goalComments2.addEventListener('change', (e) => {
 	newForm.goalComments2 = e.target.value;
   console.log(newForm.goalComments2);
