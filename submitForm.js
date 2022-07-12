@@ -103,13 +103,13 @@ goalSummary1.addEventListener('change', (e) => {
   console.log(newForm.goalSummary1);
 })
 
-let goalDetails1 = document.getElementById('input#goalDetails1')
+let goalDetails1 = document.getElementById('goalDetails1')
 goalDetails1.addEventListener('change', (e) => {
 	newForm.goalDetails1 = e.target.value;
   console.log(newForm.goalDetails1);
 })
 
-let goalSummaryFollowUp1 = document.getElementById('input#goalSummaryFollowUp1')
+let goalSummaryFollowUp1 = document.getElementById('goalSummaryFollowUp1')
 goalSummaryFollowUp1.addEventListener('change', (e) => {
 	newForm.goalSummaryFollowUp1 = e.target.value;
   console.log(newForm.goalSummaryFollowUp1);
@@ -121,13 +121,13 @@ goalSummary2.addEventListener('change', (e) => {
   console.log(newForm.goalSummary2);
 })
 
-let goalDetails2 = document.getElementById('input#goalDetails2')
+let goalDetails2 = document.getElementById('goalDetails2')
 goalDetails2.addEventListener('change', (e) => {
 	newForm.goalDetails2 = e.target.value;
   console.log(newForm.goalDetails2);
 })
 
-let goalSummaryFollowUp2 = document.getElementById('input#goalSummaryFollowUp2')
+let goalSummaryFollowUp2 = document.getElementById('goalSummaryFollowUp2')
 goalSummaryFollowUp2.addEventListener('change', (e) => {
 	newForm.goalSummaryFollowUp2 = e.target.value;
   console.log(newForm.goalSummaryFollowUp2);
