@@ -3,25 +3,6 @@ console.log(submit)
 const formName = 'IISSSession'
 console.log('form: ' + formName)
 let newForm = {}
-let questionType = ['reportable', 'selfInjury', 'aggressive', 'compliance', 'goal1-', 'goal2-', 'trials1-', 'trial2-', 'prompting', 'prompting2-']
-initializeOnClicks(questionType)
-
-function initializeOnClicks(questionType) {
-    questionType.forEach((type) => {
-        var n
-        if (type == 'goal1-' || type == 'goal2-') { n = 8 } else {
-            if (type == 'trials1-' || type == 'trials2-') { n = 3 }
-            else {n=5}
-        }
-        for (let i = 1; i < n + 1; i++) {
-            document.getElementById(`type${i}`).addEventListener('click', (e) => {
-                document.getElementById(`type${i}`).style.color = 'black'
-                sessionStorage(`type${i}`, `type${i}Text${i}`)
-            })
-        }
-    })
-} 
-
 
 let employeeEmail = document.querySelector('input#employeeEmail')
 employeeEmail.addEventListener('change', (e) => {
@@ -67,10 +48,150 @@ serviceLocation.addEventListener('change', (e) => {
   console.log(newForm.serviceLocation);
 })
 
+let selfInjury1 = document.getElementById('selfInjury1')
+selfInjury1.addEventListener('click', (e) => {
+    newForm.selfInjury = selfInjuryText1
+    document.getElementById('selfInjury1').style = 'black'
+    console.log(newForm.selfInjury)
+})
+
+let selfInjury2 = document.getElementById('selfInjury2')
+selfInjury2.addEventListener('click', (e) => {
+    newForm.selfInjury = selfInjuryText2
+    document.getElementById('selfInjury2').style = 'black'
+    console.log(newForm.selfInjury)
+})
+
+let selfInjury3 = document.getElementById('selfInjury3')
+selfInjury3.addEventListener('click', (e) => {
+    newForm.selfInjury = selfInjuryText3
+    document.getElementById('selfInjury3').style = 'black'
+    console.log(newForm.selfInjury)
+})
+
+let selfInjury4 = document.getElementById('selfInjury4')
+selfInjury4.addEventListener('click', (e) => {
+    newForm.selfInjury = selfInjuryText4
+    document.getElementById('selfInjury4').style = 'black'
+    console.log(newForm.selfInjury)
+})
+
+let selfInjury5 = document.getElementById('selfInjury5')
+selfInjury5.addEventListener('click', (e) => {
+    newForm.selfInjury = selfInjuryText5
+    document.getElementById('selfInjury5').style = 'black'
+    console.log(newForm.selfInjury)
+})
+
+let reportable1 = document.getElementById('reportable1')
+reportable1.addEventListener('click', (e) => {
+    newForm.reportable = reportableText1
+    document.getElementById('reportable1').style = 'black'
+    console.log(newForm.reportable)
+})
+
+let reportable2 = document.getElementById('reportable2')
+reportable2.addEventListener('click', (e) => {
+    newForm.reportable = reportableText2
+    document.getElementById('reportable2').style = 'black'
+    console.log(newForm.reportable)
+})
+
+let reportable3 = document.getElementById('reportable3')
+reportable3.addEventListener('click', (e) => {
+    newForm.reportable = reportableText3
+    document.getElementById('reportable3').style = 'black'
+    console.log(newForm.reportable)
+})
+
+let reportable4 = document.getElementById('reportable4')
+reportable4.addEventListener('click', (e) => {
+    newForm.reportable = reportableText4
+    document.getElementById('reportable4').style = 'black'
+    console.log(newForm.reportable)
+})
+
+let reportable5 = document.getElementById('reportable5')
+reportable5.addEventListener('click', (e) => {
+    newForm.reportable = reportableText5
+    document.getElementById('reportable5').style = 'black'
+    console.log(newForm.reportable)
+})
+
 let dangerous = document.querySelector('input#dangerous')
 dangerous.addEventListener('change', (e) => {
 	newForm.dangerous = e.target.value;
   console.log(newForm.dangerous);
+})
+
+let aggressive1 = document.getElementById('aggressive1')
+aggressive1.addEventListener('click', (e) => {
+    newForm.aggressive = aggressiveText1
+    document.getElementById('aggressive1').style = 'black'
+    console.log(newForm.aggressive)
+})
+
+let aggressive2 = document.getElementById('aggressive2')
+aggressive2.addEventListener('click', (e) => {
+    newForm.aggressive = aggressiveText2
+    document.getElementById('aggressive2').style = 'black'
+    console.log(newForm.aggressive)
+})
+
+let aggressive3 = document.getElementById('aggressive3')
+aggressive3.addEventListener('click', (e) => {
+    newForm.aggressive = aggressiveText3
+    document.getElementById('aggressive3').style = 'black'
+    console.log(newForm.aggressive)
+})
+
+let aggressive4 = document.getElementById('aggressive4')
+aggressive4.addEventListener('click', (e) => {
+    newForm.aggressive = aggressiveText4
+    document.getElementById('aggressive4').style = 'black'
+    console.log(newForm.aggressive)
+})
+
+let aggressive5 = document.getElementById('aggressive5')
+aggressive5.addEventListener('click', (e) => {
+    newForm.aggressive = aggressiveText5
+    document.getElementById('aggressive5').style = 'black'
+    console.log(newForm.aggressive)
+})
+
+let compliance1 = document.getElementById('compliance1')
+compliance1.addEventListener('click', (e) => {
+    newForm.compliance = complianceText1
+    document.getElementById('compliance1').style = 'black'
+    console.log(newForm.compliance)
+})
+
+let compliance2 = document.getElementById('compliance2')
+compliance2.addEventListener('click', (e) => {
+    newForm.compliance = complianceText2
+    document.getElementById('compliance2').style = 'black'
+    console.log(newForm.compliance)
+})
+
+let compliance3 = document.getElementById('compliance3')
+compliance3.addEventListener('click', (e) => {
+    newForm.compliance = complianceText3
+    document.getElementById('compliance3').style = 'black'
+    console.log(newForm.compliance)
+})
+
+let compliance4 = document.getElementById('compliance4')
+compliance4.addEventListener('click', (e) => {
+    newForm.compliance = complianceText4
+    document.getElementById('compliance4').style = 'black'
+    console.log(newForm.compliance)
+})
+
+let compliance5 = document.getElementById('compliance5')
+compliance5.addEventListener('click', (e) => {
+    newForm.compliance = complianceText5
+    document.getElementById('compliance5').style = 'black'
+    console.log(newForm.compliance)
 })
 
 let hospitalized = document.querySelector('input#hospitalized')
@@ -84,6 +205,102 @@ eat.addEventListener('change', (e) => {
 	newForm.eat = e.target.value;
   console.log(newForm.eat);
 })
+
+let goal1_1 = document.getElementById('goal1-1')
+goal1_1.addEventListener('click', ((e) => {
+    document.getElementById('goal1-1').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text1')
+}))
+
+let goal1_2 = document.getElementById('goal1-2')
+goal1_2.addEventListener('click', ((e) => {
+    document.getElementById('goal1-2').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text2')
+}))
+
+let goal1_3 = document.getElementById('goal1-3')
+goal1_3.addEventListener('click', ((e) => {
+    document.getElementById('goal1-3').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text3')
+}))
+
+let goal1_4 = document.getElementById('goal1-4')
+goal1_4.addEventListener('click', ((e) => {
+    document.getElementById('goal1-4').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text4')
+}))
+
+let goal1_5 = document.getElementById('goal1-5')
+goal1_5.addEventListener('click', ((e) => {
+    document.getElementById('goal1-5').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text5')
+}))
+
+let goal1_6 = document.getElementById('goal1-6')
+goal1_6.addEventListener('click', ((e) => {
+    document.getElementById('goal1-6').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text6')
+}))
+
+let goal1_7 = document.getElementById('goal1-7')
+goal1_7.addEventListener('click', ((e) => {
+    document.getElementById('goal1-7').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text7')
+}))
+
+let goal1_8 = document.getElementById('goal1-8')
+goal1_8.addEventListener('click', ((e) => {
+    document.getElementById('goal1-8').style = 'black'
+    newForm.goal1 = document.getElementById('goal1-Text8')
+}))
+
+let goal2_1 = document.getElementById('goal2-1')
+goal2_1.addEventListener('click', ((e) => {
+    document.getElementById('goal2-1').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text1')
+}))
+
+let goal2_2 = document.getElementById('goal2-2')
+goal2_2.addEventListener('click', ((e) => {
+    document.getElementById('goal2-2').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text2')
+}))
+
+let goal2_3 = document.getElementById('goal2-3')
+goal2_3.addEventListener('click', ((e) => {
+    document.getElementById('goal2-3').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text3')
+}))
+
+let goal2_4 = document.getElementById('goal2-4')
+goal2_4.addEventListener('click', ((e) => {
+    document.getElementById('goal2-4').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text4')
+}))
+
+let goal2_5 = document.getElementById('goal2-5')
+goal2_5.addEventListener('click', ((e) => {
+    document.getElementById('goal2-5').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text5')
+}))
+
+let goal2_6 = document.getElementById('goal2-6')
+goal2_6.addEventListener('click', ((e) => {
+    document.getElementById('goal2-6').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text6')
+}))
+
+let goal2_7 = document.getElementById('goal2-7')
+goal2_7.addEventListener('click', ((e) => {
+    document.getElementById('goal2-7').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text7')
+}))
+
+let goal2_8 = document.getElementById('goal2-8')
+goal2_8.addEventListener('click', ((e) => {
+    document.getElementById('goal2-8').style = 'black'
+    newForm.goal2 = document.getElementById('goal2-Text8')
+}))
 
 let goalComments1 = document.getElementById('goalComments1')
 goalComments1.addEventListener('change', (e) => {
@@ -107,6 +324,102 @@ let goalDetails1 = document.getElementById('goalDetails1')
 goalDetails1.addEventListener('change', (e) => {
 	newForm.goalDetails1 = e.target.value;
   console.log(newForm.goalDetails1);
+})
+
+let trials1_1 = document.getElementById('trials1-1')
+trials1_1.addEventListener('click', (e) => {
+    document.getElementById('trials1-1').style = 'black'
+    newForm.trials1 = document.getElementById('trials1-Text1')
+})
+
+let trials1_2 = document.getElementById('trials1-2')
+trials1_2.addEventListener('click', (e) => {
+    document.getElementById('trials1-2').style = 'black'
+    newForm.trials1 = document.getElementById('trials1-Text2')
+})
+
+let trials1_3 = document.getElementById('trials1-3')
+trials1_3.addEventListener('click', (e) => {
+    document.getElementById('trials1-3').style = 'black'
+    newForm.trials1 = document.getElementById('trials1-Text3')
+})
+
+let prompting1 = document.getElementById('prompting1')
+prompting1.addEventListener('click', (e) => {
+    document.getElementById('prompting1').style = 'black'
+    newForm.prompting = document.getElementById('promptingText1')
+})
+
+let prompting2 = document.getElementById('prompting2')
+prompting2.addEventListener('click', (e) => {
+    document.getElementById('prompting2').style = 'black'
+    newForm.prompting = document.getElementById('promptingText2')
+})
+
+let prompting3 = document.getElementById('prompting3')
+prompting3.addEventListener('click', (e) => {
+    document.getElementById('prompting3').style = 'black'
+    newForm.prompting = document.getElementById('promptingText3')
+})
+
+let prompting4 = document.getElementById('prompting4')
+prompting4.addEventListener('click', (e) => {
+    document.getElementById('prompting4').style = 'black'
+    newForm.prompting = document.getElementById('promptingText4')
+})
+
+let prompting5 = document.getElementById('prompting5')
+prompting5.addEventListener('click', (e) => {
+    document.getElementById('prompting5').style = 'black'
+    newForm.prompting = document.getElementById('promptingText5')
+})
+
+let prompting2_1 = document.getElementById('prompting2-1')
+prompting2_1.addEventListener('click', (e) => {
+    document.getElementById('prompting2-1').style = 'black'
+    newForm.prompting2 = document.getElementById('prompting2-Text1')
+})
+
+let prompting2_2 = document.getElementById('prompting2-2')
+prompting2_2.addEventListener('click', (e) => {
+    document.getElementById('prompting2-2').style = 'black'
+    newForm.prompting2 = document.getElementById('prompting2-Text2')
+})
+
+let prompting2_3 = document.getElementById('prompting2-3')
+prompting2_3.addEventListener('click', (e) => {
+    document.getElementById('prompting2-3').style = 'black'
+    newForm.prompting2 = document.getElementById('prompting2-Text3')
+})
+
+let prompting2_4 = document.getElementById('prompting2-4')
+prompting2_4.addEventListener('click', (e) => {
+    document.getElementById('prompting2-4').style = 'black'
+    newForm.prompting2 = document.getElementById('prompting2-Text4')
+})
+
+let prompting2_5 = document.getElementById('prompting2-5')
+prompting2_5.addEventListener('click', (e) => {
+    document.getElementById('prompting2-5').style = 'black'
+    newForm.prompting2 = document.getElementById('prompting2-Text5')
+})
+
+let trials2_1 = document.getElementById('trials2-1')
+trials2_1.addEventListener('click', (e) => {
+    document.getElementById('trials2-1').style = 'black'
+    newForm.trials2 = document.getElementById('trials2-Text1')
+})
+
+let trials2_2 = document.getElementById('trials2-2')
+trials2_2.addEventListener('click', (e) => {
+    document.getElementById('trials2-2').style = 'black'
+    newForm.trials2 = document.getElementById('trials2-Text2')
+})
+
+let trials2_3 = document.getElementById('trials2-3')
+trials2_3.addEventListener('click', (e) => {
+    document.getElementById('trials2-3').style = 'black'
+    newForm.trials2 = document.getElementById('trials2-Text3')
 })
 
 let goalSummaryFollowUp1 = document.getElementById('goalSummaryFollowUp1')
