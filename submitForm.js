@@ -3,6 +3,25 @@ console.log(submit)
 const formName = 'IISSSession'
 console.log('form: ' + formName)
 let newForm = {}
+let questionType = ['reportable', 'selfInjury', 'aggressive', 'compliance', 'goal1-', 'goal2-', 'trials1-', 'trial2-', 'prompting', 'prompting2-']
+
+
+function initializeOnClicks(questionType) {
+    questionType.forEach((type) => {
+        var n
+        if (type == 'goal1-' || type == 'goal2-') { n = 8 } else {
+            if (type == 'trials1-' || type == 'trials2-') { n = 3 }
+            else {n=5}
+        }
+        for (let i = 1; i < n + 1; i++) {
+            document.getElementById(`type${i}`).addEventListener('click', (e) => {
+                document.getElementById(`type${i}`).style.color = 'black'
+                sessionStorage(`type${i}`, `type${i}Text${i}`)
+            })
+        }
+    })
+} 
+
 
 let employeeEmail = document.querySelector('input#employeeEmail')
 employeeEmail.addEventListener('change', (e) => {
@@ -48,69 +67,70 @@ location.addEventListener('change', (e) => {
   console.log(newForm.location);
 })
 
-let dangerous = document.querySelector('dangerous')
+let dangerous = document.querySelector('input#dangerous')
 dangerous.addEventListener('change', (e) => {
-    newForm.dangerous = e.target.value;
-    console.log(newForm.dangerous)
+	newForm.dangerous = e.target.value;
+  console.log(newForm.dangerous);
 })
 
-let eat = document.querySelector('eat')
-eat.addEventListener('change', (e) => {
-    newForm.eat = e.target.value;
-    console.log(newForm.eat)
-})
-
-let hospitalized = document.querySelector('hospitalized')
+let hospitalized = document.querySelector('input#hospitalized')
 hospitalized.addEventListener('change', (e) => {
-    newForm.hospitalized = e.target.value;
-    console.log(newForm.hospitalized)
+	newForm.hospitalized = e.target.value;
+  console.log(newForm.hospitalized);
 })
 
-let sessionSummaryGoal = document.querySelector('sessionSummaryGoal')
-sessionSummaryGoal.addEventListener('change', (e) => {
-    newForm.sessionSummaryGoal = e.target.value;
-    console.log(newForm.sessionSummaryGoal)
+let eat = document.querySelector('input#eat')
+eat.addEventListener('change', (e) => {
+	newForm.eat = e.target.value;
+  console.log(newForm.eat);
 })
 
-let sessionSummaryDetails = document.querySelector('sessionSummaryDetails')
-sessionSummaryDetails.addEventListener('change', (e) => {
-    newForm.sessionSummaryDetails = e.target.value;
-    console.log(newForm.sessionSummaryDetails)
+let goalComments1 = document.querySelector('input#goalComments1')
+goalComments1.addEventListener('change', (e) => {
+	newForm.goalComments1 = e.target.value;
+  console.log(newForm.goalComments1);
 })
 
-let sessionSummaryWrapUp = document.querySelector('sessionSummaryWrapUp')
-sessionSummaryWrapUp.addEventListener('change', (e) => {
-    newForm.sessionSummaryWrapUp = e.target.value;
-    console.log(newForm.sessionSummaryWrapUp)
-})
-let goal1NextSteps = document.querySelector('Goal1NextSteps')
-goal1NextSteps.addEventListener('change', (e) => {
-    newForm.goal1NextSteps = e.target.value;
-    console.log(newForm.goal1NextSteps)
+let goalComments2 = document.querySelector('input#goalComments2')
+goalComments2.addEventListener('change', (e) => {
+	newForm.goalComments2 = e.target.value;
+  console.log(newForm.goalComments2);
 })
 
-let sessionSummaryGoal2 = document.querySelector('sessionSummaryGoal2')
-sessionSummaryGoal2.addEventListener('change', (e) => {
-    newForm.sessionSummaryGoal2 = e.target.value;
-    console.log(newForm.sessionSummaryGoal2)
+let goalSummary1 = document.querySelector('input#goalSummary1')
+goalSummary1.addEventListener('change', (e) => {
+	newForm.goalSummary1 = e.target.value;
+  console.log(newForm.goalSummary1);
 })
 
-let sessionSummaryDetails2 = document.querySelector('sessionSummaryDetails2')
-sessionSummaryDetails2.addEventListener('change', (e) => {
-    newForm.sessionSummaryDetails2 = e.target.value;
-    console.log(newForm.sessionSummaryDetails2)
+let goalDetails1 = document.querySelector('input#goalDetails1')
+goalDetails1.addEventListener('change', (e) => {
+	newForm.goalDetails1 = e.target.value;
+  console.log(newForm.goalDetails1);
 })
 
-let sessionSummaryWrapUp2 = document.querySelector('sessionSummaryWrapUp2')
-sessionSummaryWrapUp2.addEventListener('change', (e) => {
-    newForm.sessionSummaryWrapUp2 = e.target.value;
-    console.log(newForm.sessionSummaryWrapUp2)
+let goalSummaryFollowUp1 = document.querySelector('input#goalSummaryFollowUp1')
+goalSummaryFollowUp1.addEventListener('change', (e) => {
+	newForm.goalSummaryFollowUp1 = e.target.value;
+  console.log(newForm.goalSummaryFollowUp1);
 })
 
-let goal2NextSteps = document.querySelector('goal2NextSteps')
-goal2NextSteps.addEventListener('change', (e) => {
-    newForm.goal2NextSteps = e.target.value;
-    console.log(newForm.goal2NextSteps)
+let goalSummary2 = document.querySelector('input#goalSummary2')
+goalSummary2.addEventListener('change', (e) => {
+	newForm.goalSummary2 = e.target.value;
+  console.log(newForm.goalSummary2);
+})
+
+let goalDetails2 = document.querySelector('input#goalDetails2')
+goalDetails2.addEventListener('change', (e) => {
+	newForm.goalDetails2 = e.target.value;
+  console.log(newForm.goalDetails2);
+})
+
+let goalSummaryFollowUp2 = document.querySelector('input#goalSummaryFollowUp2')
+goalSummaryFollowUp2.addEventListener('change', (e) => {
+	newForm.goalSummaryFollowUp2 = e.target.value;
+  console.log(newForm.goalSummaryFollowUp2);
 })
 
 let staffName = document.querySelector('staffName')
