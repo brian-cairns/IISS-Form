@@ -4,6 +4,13 @@ const formName = 'IISSSession'
 console.log('form: ' + formName)
 let newForm = {}
 
+let employeeEmail = document.querySelector('input#employeeEmail')
+employeeEmail.addEventListener('change', (e) => {
+	console.log('changed')
+	newForm.employeeEmail = e.target.value;
+  console.log(newForm.employeeEmail);
+})
+
 let clientName = document.querySelector('input#clientName')
 clientName.addEventListener('change', (e) => {
 	console.log('changed')
@@ -33,4 +40,16 @@ let technicianName = document.querySelector('input#technicianName')
 technicianName.addEventListener('change', (e) => {
 	newForm.technicianName = e.target.value;
   console.log(newForm.technicianName);
+})
+
+let location = document.querySelector('input#location')
+location.addEventListener('change', (e) => {
+	newForm.location = e.target.value;
+  console.log(newForm.location);
+})
+
+let reportableEvent = document.querySelector('reportableEvent')
+reportableEvent.addEventListener('change', (e) => {
+    newForm.reportableEvent = e.target.value;
+    console.log(newForm.reportableEvent)
 })
