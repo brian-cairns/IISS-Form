@@ -50,11 +50,7 @@ serviceLocation.addEventListener('change', (e) => {
 
 let selfInjury1 = document.getElementById('selfInjury1')
 selfInjury1.addEventListener('click', (e) => {
-<<<<<<< HEAD
     newForm.selfInjury = document.getElementById('selfInjuryText1').innerHTML.text
-=======
-    newForm.selfInjury = document.ElementById('selfInjuryText1').innerHTML.text
->>>>>>> 1448ba6830f109318bf17b2146d63b7e33409b30
     document.getElementById('selfInjury1').style.color = 'black'
     console.log(newForm.selfInjury)
 })
