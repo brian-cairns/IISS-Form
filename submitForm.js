@@ -50,70 +50,70 @@ serviceLocation.addEventListener('change', (e) => {
 
 let selfInjury1 = document.getElementById('selfInjury1')
 selfInjury1.addEventListener('click', (e) => {
-    newForm.selfInjury = getElementById('selfInjuryText1').innerHTML
+    newForm.selfInjury = document.ElementById('selfInjuryText1').innerHTML
     document.getElementById('selfInjury1').style.color = 'black'
     console.log(newForm.selfInjury)
 })
 
 let selfInjury2 = document.getElementById('selfInjury2')
 selfInjury2.addEventListener('click', (e) => {
-    newForm.selfInjury = getElementById('selfInjuryText2').innerHTML
+    newForm.selfInjury = document.ElementById('selfInjuryText2').innerHTML
     document.getElementById('selfInjury2').style.color = 'black'
     console.log(newForm.selfInjury)
 })
 
 let selfInjury3 = document.getElementById('selfInjury3')
 selfInjury3.addEventListener('click', (e) => {
-    newForm.selfInjury = getElementById('selfInjuryText3').innerHTML
+    newForm.selfInjury = document.ElementById('selfInjuryText3').innerHTML
     document.getElementById('selfInjury3').style.color = 'black'
     console.log(newForm.selfInjury)
 })
 
 let selfInjury4 = document.getElementById('selfInjury4')
 selfInjury4.addEventListener('click', (e) => {
-    newForm.selfInjury = getElementById('selfInjuryText4').innerHTML
+    newForm.selfInjury = document.ElementById('selfInjuryText4').innerHTML
     document.getElementById('selfInjury4').style.color = 'black'
     console.log(newForm.selfInjury)
 })
 
 let selfInjury5 = document.getElementById('selfInjury5')
 selfInjury5.addEventListener('click', (e) => {
-    newForm.selfInjury = getElementById('selfInjuryText5').innerHTML
+    newForm.selfInjury = document.ElementById('selfInjuryText5').innerHTML
     document.getElementById('selfInjury5').style.color = 'black'
     console.log(newForm.selfInjury)
 })
 
 let reportable1 = document.getElementById('reportable1')
 reportable1.addEventListener('click', (e) => {
-    newForm.reportable = getElementById('reportableText1').innerHTML
+    newForm.reportable = document.ElementById('reportableText1').innerHTML
     document.getElementById('reportable1').style.color = 'black'
     console.log(newForm.reportable)
 })
 
 let reportable2 = document.getElementById('reportable2')
 reportable2.addEventListener('click', (e) => {
-    newForm.reportable = getElementById('reportableText2').innerHTML
+    newForm.reportable = document.ElementById('reportableText2').innerHTML
     document.getElementById('reportable2').style.color = 'black'
     console.log(newForm.reportable)
 })
 
 let reportable3 = document.getElementById('reportable3')
 reportable3.addEventListener('click', (e) => {
-    newForm.reportable = getElementById('reportableText3').innerHTML
+    newForm.reportable = document.ElementById('reportableText3').innerHTML
     document.getElementById('reportable3').style.color = 'black'
     console.log(newForm.reportable)
 })
 
 let reportable4 = document.getElementById('reportable4')
 reportable4.addEventListener('click', (e) => {
-    newForm.reportable = getElementById('reportableText4').innerHTML
+    newForm.reportable = document.ElementById('reportableText4').innerHTML
     document.getElementById('reportable4').style.color = 'black'
     console.log(newForm.reportable)
 })
 
 let reportable5 = document.getElementById('reportable5')
 reportable5.addEventListener('click', (e) => {
-    newForm.reportable = getElementById('reportableText5').innerHTML
+    newForm.reportable = document.ElementById('reportableText5').innerHTML
     document.getElementById('reportable5').style.color = 'black'
     console.log(newForm.reportable)
 })
@@ -126,70 +126,70 @@ dangerous.addEventListener('change', (e) => {
 
 let aggressive1 = document.getElementById('aggressive1')
 aggressive1.addEventListener('click', (e) => {
-    newForm.aggressive = getElementById('aggressiveText1').innerHTML
+    newForm.aggressive = document.ElementById('aggressiveText1').innerHTML
     document.getElementById('aggressive1').style.color = 'black'
     console.log(newForm.aggressive)
 })
 
 let aggressive2 = document.getElementById('aggressive2')
 aggressive2.addEventListener('click', (e) => {
-    newForm.aggressive = getElementById('aggressiveText2').innerHTML
+    newForm.aggressive = document.ElementById('aggressiveText2').innerHTML
     document.getElementById('aggressive2').style.color = 'black'
     console.log(newForm.aggressive)
 })
 
 let aggressive3 = document.getElementById('aggressive3')
 aggressive3.addEventListener('click', (e) => {
-    newForm.aggressive = getElementById('aggressiveText3').innerHTML
+    newForm.aggressive = document.ElementById('aggressiveText3').innerHTML
     document.getElementById('aggressive3').style.color = 'black'
     console.log(newForm.aggressive)
 })
 
 let aggressive4 = document.getElementById('aggressive4')
 aggressive4.addEventListener('click', (e) => {
-    newForm.aggressive = getElementById('aggressiveText4').innerHTML
+    newForm.aggressive = document.ElementById('aggressiveText4').innerHTML
     document.getElementById('aggressive4').style.color = 'black'
     console.log(newForm.aggressive)
 })
 
 let aggressive5 = document.getElementById('aggressive5')
 aggressive5.addEventListener('click', (e) => {
-    newForm.aggressive = getElementById('aggressiveText5').innerHTML
+    newForm.aggressive = document.ElementById('aggressiveText5').innerHTML
     document.getElementById('aggressive5').style.color = 'black'
     console.log(newForm.aggressive)
 })
 
 let compliance1 = document.getElementById('compliance1')
 compliance1.addEventListener('click', (e) => {
-    newForm.compliance = getElementById('complianceText1').innerHTML
+    newForm.compliance = document.ElementById('complianceText1').innerHTML
     document.getElementById('compliance1').style.color = 'black'
     console.log(newForm.compliance)
 })
 
 let compliance2 = document.getElementById('compliance2')
 compliance2.addEventListener('click', (e) => {
-    newForm.compliance = getElementById('complianceText2').innerHTML
+    newForm.compliance = document.ElementById('complianceText2').innerHTML
     document.getElementById('compliance2').style.color = 'black'
     console.log(newForm.compliance)
 })
 
 let compliance3 = document.getElementById('compliance3')
 compliance3.addEventListener('click', (e) => {
-    newForm.compliance = getElementById('complianceText3')
+    newForm.compliance = document.ElementById('complianceText3')
     document.getElementById('compliance3').style.color = 'black'
     console.log(newForm.compliance)
 })
 
 let compliance4 = document.getElementById('compliance4')
 compliance4.addEventListener('click', (e) => {
-    newForm.compliance = getElementById('complianceText4').innerHTML
+    newForm.compliance = document.ElementById('complianceText4').innerHTML
     document.getElementById('compliance4').style.color = 'black'
     console.log(newForm.compliance)
 })
 
 let compliance5 = document.getElementById('compliance5')
 compliance5.addEventListener('click', (e) => {
-    newForm.compliance = getElementById('complianceText5').innerHTML
+    newForm.compliance = document.ElementById('complianceText5').innerHTML
     document.getElementById('compliance5').style.color = 'black'
     console.log(newForm.compliance)
 })
