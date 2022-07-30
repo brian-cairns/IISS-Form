@@ -529,7 +529,7 @@ function respond(data) {
 
 function showSuccess(formId) {
   document.getElementById('returnMessage').innerHTML = 'Form has been successfully submitted'
-  printForm.style.display = 'block';
+  printForm.style.display = 'inline';
   printForm.addEventListener('click', (e) => {
     location.href = `phoenix-freedom-foundation-backend.webflow.io/completed-forms/iiss-session-note?formId=${formId}`
   })
