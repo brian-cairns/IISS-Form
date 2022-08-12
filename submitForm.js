@@ -4,7 +4,7 @@ const formName = 'IISSSession'
 console.log('form: ' + formName)
 let newForm = {}
 
-let printForm = document.getElementById('printToPDF')https://github.com/brian-cairns/IISS-Form/blob/projects/submitForm.js
+let printForm = document.getElementById('printToPDF')
 printForm.style.display = 'none'
 
 let employeeEmail = document.querySelector('input#employeeEmail')
