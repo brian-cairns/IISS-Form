@@ -54,70 +54,70 @@ serviceLocation.addEventListener('change', (e) => {
 let selfInjury1 = document.getElementById('selfInjury1')
 selfInjury1.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText1').innerText
-    document.getElementById('selfInjury1').style.backgroudColor = "#000000"
+    document.getElementById('selfInjury1').style.backgroudColor ="red"
     console.log(newForm.selfInjury)
 })
 
 let selfInjury2 = document.getElementById('selfInjury2')
 selfInjury2.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText2').innerText
-    document.getElementById('selfInjury2').style.backgroudColor = "#000000"
+    document.getElementById('selfInjury2').style.backgroudColor ="red"
     console.log(newForm.selfInjury)
 })
 
 let selfInjury3 = document.getElementById('selfInjury3')
 selfInjury3.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText3').innerText
-    document.getElementById('selfInjury3').style.backgroudColor = "#000000"
+    document.getElementById('selfInjury3').style.backgroudColor ="red"
     console.log(newForm.selfInjury)
 })
 
 let selfInjury4 = document.getElementById('selfInjury4')
 selfInjury4.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText4').innerText
-    document.getElementById('selfInjury4').style.backgroudColor = "#000000"
+    document.getElementById('selfInjury4').style.backgroudColor ="red"
     console.log(newForm.selfInjury)
 })
 
 let selfInjury5 = document.getElementById('selfInjury5')
 selfInjury5.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText5').innerText
-    document.getElementById('selfInjury5').style.backgroudColor = "#000000"
+    document.getElementById('selfInjury5').style.backgroudColor ="red"
     console.log(newForm.selfInjury)
 })
 
 let reportable1 = document.getElementById('reportable1')
 reportable1.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText1').innerText
-    document.getElementById('reportable1').style.backgroudColor = "#000000"
+    document.getElementById('reportable1').style.backgroudColor ="red"
     console.log(newForm.reportable)
 })
 
 let reportable2 = document.getElementById('reportable2')
 reportable2.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText2').innerText
-    document.getElementById('reportable2').style.backgroudColor = "#000000"
+    document.getElementById('reportable2').style.backgroudColor ="red"
     console.log(newForm.reportable)
 })
 
 let reportable3 = document.getElementById('reportable3')
 reportable3.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText3').innerText
-    document.getElementById('reportable3').style.backgroudColor = "#000000"
+    document.getElementById('reportable3').style.backgroudColor ="red"
     console.log(newForm.reportable)
 })
 
 let reportable4 = document.getElementById('reportable4')
 reportable4.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText4').innerText
-    document.getElementById('reportable4').style.backgroudColor = "#000000"
+    document.getElementById('reportable4').style.backgroudColor ="red"
     console.log(newForm.reportable)
 })
 
 let reportable5 = document.getElementById('reportable5')
 reportable5.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText5').innerText
-    document.getElementById('reportable5').style.backgroudColor = "#000000"
+    document.getElementById('reportable5').style.backgroudColor ="red"
     console.log(newForm.reportable)
 })
 
@@ -130,70 +130,70 @@ dangerous.addEventListener('change', (e) => {
 let aggressive1 = document.getElementById('aggressive1')
 aggressive1.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText1').innerText
-    document.getElementById('aggressive1').style.backgroudColor = "#000000"
+    document.getElementById('aggressive1').style.backgroudColor ="red"
     console.log(newForm.aggressive)
 })
 
 let aggressive2 = document.getElementById('aggressive2')
 aggressive2.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText2').innerText
-    document.getElementById('aggressive2').style.backgroudColor = "#000000"
+    document.getElementById('aggressive2').style.backgroudColor ="red"
     console.log(newForm.aggressive)
 })
 
 let aggressive3 = document.getElementById('aggressive3')
 aggressive3.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText3').innerText
-    document.getElementById('aggressive3').style.backgroudColor = "#000000"
+    document.getElementById('aggressive3').style.backgroudColor ="red"
     console.log(newForm.aggressive)
 })
 
 let aggressive4 = document.getElementById('aggressive4')
 aggressive4.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText4').innerText
-    document.getElementById('aggressive4').style.backgroudColor = "#000000"
+    document.getElementById('aggressive4').style.backgroudColor ="red"
     console.log(newForm.aggressive)
 })
 
 let aggressive5 = document.getElementById('aggressive5')
 aggressive5.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText5').innerText
-    document.getElementById('aggressive5').style.backgroudColor = "#000000"
+    document.getElementById('aggressive5').style.backgroudColor ="red"
     console.log(newForm.aggressive)
 })
 
 let compliance1 = document.getElementById('compliance1')
 compliance1.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText1').innerText
-    document.getElementById('compliance1').style.backgroudColor = "#000000"
+    document.getElementById('compliance1').style.backgroudColor ="red"
     console.log(newForm.compliance)
 })
 
 let compliance2 = document.getElementById('compliance2')
 compliance2.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText2').innerText
-    document.getElementById('compliance2').style.backgroudColor = "#000000"
+    document.getElementById('compliance2').style.backgroudColor ="red"
     console.log(newForm.compliance)
 })
 
 let compliance3 = document.getElementById('compliance3')
 compliance3.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText3')
-    document.getElementById('compliance3').style.backgroudColor = "#000000"
+    document.getElementById('compliance3').style.backgroudColor ="red"
     console.log(newForm.compliance)
 })
 
 let compliance4 = document.getElementById('compliance4')
 compliance4.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText4').innerText
-    document.getElementById('compliance4').style.backgroudColor = "#000000"
+    document.getElementById('compliance4').style.backgroudColor ="red"
     console.log(newForm.compliance)
 })
 
 let compliance5 = document.getElementById('compliance5')
 compliance5.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText5').innerText
-    document.gtiElementById('compliance5').style.backgroudColor = "#000000"
+    document.gtiElementById('compliance5').style.backgroudColor ="red"
     console.log(newForm.compliance)
 })
 
@@ -211,112 +211,112 @@ eat.addEventListener('change', (e) => {
 
 let goal1_1 = document.getElementById('goal1-1')
 goal1_1.addEventListener('click', ((e) => {
-    document.getElementById('goal1-1').style.backgroudColor = "#000000"
+    goal1_1.style.backgroudColor ="red" ? goal1_1.style.backgroudColor ="none" : goal1_1.style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text1').innerText
   console.log(newForm.goal1)
 }))
 
 let goal1_2 = document.getElementById('goal1-2')
 goal1_2.addEventListener('click', ((e) => {
-    document.getElementById('goal1-2').style.backgroudColor = "#000000"
+    goal1_2.style.backgroudColor ="red" ? goal1_2.style.backgroudColor ="none" : goal1_2.style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text2').innerText
   console.log(newForm.goal1)
 }))
 
 let goal1_3 = document.getElementById('goal1-3')
 goal1_3.addEventListener('click', ((e) => {
-    document.getElementById('goal1-3').style.backgroudColor = "#000000"
+   goal1_3.style.backgroudColor ="red" ? goal1_3.style.backgroudColor ="none" : goal1_3.style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text3').innerText
   console.log(newForm.goal1)
 }))
 
 let goal1_4 = document.getElementById('goal1-4')
 goal1_4.addEventListener('click', ((e) => {
-    document.getElementById('goal1-4').style.backgroudColor = "#000000"
+    document.getElementById('goal1-4').style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text4').innerText
   console.log(newForm.goal1)
 }))
 
 let goal1_5 = document.getElementById('goal1-5')
 goal1_5.addEventListener('click', ((e) => {
-    document.getElementById('goal1-5').style.backgroudColor = "#000000"
+    document.getElementById('goal1-5').style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text5').innerText
   console.log(newForm.goal1)
 }))
 
 let goal1_6 = document.getElementById('goal1-6')
 goal1_6.addEventListener('click', ((e) => {
-    document.getElementById('goal1-6').style.backgroudColor = "#000000"
+    document.getElementById('goal1-6').style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text6').innerText
   console.log(newForm.goal1)
 }))
 
 let goal1_7 = document.getElementById('goal1-7')
 goal1_7.addEventListener('click', ((e) => {
-    document.getElementById('goal1-7').style.backgroudColor = "#000000"
+    document.getElementById('goal1-7').style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text7').innerText
   console.log(newForm.goal1)
 }))
 
 let goal1_8 = document.getElementById('goal1-8')
 goal1_8.addEventListener('click', ((e) => {
-    document.getElementById('goal1-8').style.backgroudColor = "#000000"
+    document.getElementById('goal1-8').style.backgroudColor ="red"
   newForm.goal1 = document.getElementById('goal1-Text8').innerText
   console.log(newForm.goal1)
 }))
 
 let goal2_1 = document.getElementById('goal2-1')
 goal2_1.addEventListener('click', ((e) => {
-    document.getElementById('goal2-1').style.backgroudColor = "#000000"
+    document.getElementById('goal2-1').style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text1').innerText
   console.log(newForm.goal2)
 }))
 
 let goal2_2 = document.getElementById('goal2-2')
 goal2_2.addEventListener('click', ((e) => {
-    document.getElementById('goal2-2').style.backgroudColor = "#000000"
+    document.getElementById('goal2-2').style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text2').innerText
   console.log(newForm.goal2)
 }))
 
 let goal2_3 = document.getElementById('goal2-3')
 goal2_3.addEventListener('click', ((e) => {
-    document.getElementById('goal2-3').style.backgroudColor = "#000000"
+    trials2_3.style.backgroudColor ="red" ? trials2_3.style.backgroudColor ="none" : trials2_3.style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text3').innerText
   console.log(newForm.goal2)
 }))
 
 let goal2_4 = document.getElementById('goal2-4')
 goal2_4.addEventListener('click', ((e) => {
-    document.getElementById('goal2-4').style.backgroudColor = "#000000"
+    trials2_4.style.backgroudColor ="red" ? trials2_4.style.backgroudColor ="none" : trials2_4.style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text4').innerText
   console.log(newForm.goal2)
 }))
 
 let goal2_5 = document.getElementById('goal2-5')
 goal2_5.addEventListener('click', ((e) => {
-    document.getElementById('goal2-5').style.backgroudColor = "#000000"
+    document.getElementById('goal2-5').style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text5').innerText
   console.log(newForm.goal2)
 }))
 
 let goal2_6 = document.getElementById('goal2-6')
 goal2_6.addEventListener('click', ((e) => {
-    document.getElementById('goal2-6').style.backgroudColor = "#000000"
+    document.getElementById('goal2-6').style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text6').innerText
   console.log(newForm.goal2)
 }))
 
 let goal2_7 = document.getElementById('goal2-7')
 goal2_7.addEventListener('click', ((e) => {
-    document.getElementById('goal2-7').style.backgroudColor = "#000000"
+    document.getElementById('goal2-7').style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text7').innerText
   console.log(newForm.goal2)
 }))
 
 let goal2_8 = document.getElementById('goal2-8')
 goal2_8.addEventListener('click', ((e) => {
-    document.getElementById('goal2-8').style.backgroudColor = "#000000"
+    document.getElementById('goal2-8').style.backgroudColor ="red"
   newForm.goal2 = document.getElementById('goal2-Text8').innerText
   console.log(newForm.goal2)
 }))
@@ -347,112 +347,112 @@ goalDetails1.addEventListener('change', (e) => {
 
 let trials1_1 = document.getElementById('trials1-1')
 trials1_1.addEventListener('click', (e) => {
-    document.getElementById('trials1-1').style.backgroudColor = "#000000"
+    trials1_1.style.backgroudColor ="red" ? trials1_1.style.backgroudColor ="none" : trials1_1.style.backgroudColor ="red"
   newForm.trials1 = document.getElementById('trials1-Text1').innerText
   console.log(newForm.trials1)
 })
 
 let trials1_2 = document.getElementById('trials1-2')
 trials1_2.addEventListener('click', (e) => {
-    document.getElementById('trials1-2').style.backgroudColor = "#000000"
+    trials1_2.style.backgroudColor ="red" ? trials1_2.style.backgroudColor ="none" : trials1_2.style.backgroudColor ="red"
   newForm.trials1 = document.getElementById('trials1-Text2').innerText
   console.log(newForm.trials1)
 })
 
 let trials1_3 = document.getElementById('trials1-3')
 trials1_3.addEventListener('click', (e) => {
-    document.getElementById('trials1-3').style.backgroudColor = "#000000"
+    trials1_3.style.backgroudColor ="red" ? trials1_3.style.backgroudColor ="none" : trials1_3.style.backgroudColor ="red"
   newForm.trials1 = document.getElementById('trials1-Text3').innerText
   console.log(newForm.trials1)
 })
 
 let prompting1 = document.getElementById('prompting1')
 prompting1.addEventListener('click', (e) => {
-    document.getElementById('prompting1').style.backgroudColor = "#000000"
+    prompting1.style.backgroudColor ="red" ? prompting1.style.backgroudColor ="none" : prompting1.style.backgroudColor ="red"
   newForm.prompting = document.getElementById('promptingText1').innerText
   console.log(newForm.prompting)
 })
 
 let prompting2 = document.getElementById('prompting2')
 prompting2.addEventListener('click', (e) => {
-    document.getElementById('prompting2').style.backgroudColor = "#000000"
+    prompting2.style.backgroudColor ="red" ? prompting2.style.backgroudColor ="none" : prompting2.style.backgroudColor ="red"
   newForm.prompting = document.getElementById('promptingText2').innerText
   console.log(newForm.prompting)
 })
 
 let prompting3 = document.getElementById('prompting3')
 prompting3.addEventListener('click', (e) => {
-    document.getElementById('prompting3').style.backgroudColor = "#000000"
+    prompting3.style.backgroudColor ="red" ? prompting3.style.backgroudColor ="none" : prompting3.style.backgroudColor ="red"
   newForm.prompting = document.getElementById('promptingText3').innerText
   console.log(newForm.prompting)
 })
 
 let prompting4 = document.getElementById('prompting4')
 prompting4.addEventListener('click', (e) => {
-    document.getElementById('prompting4').style.backgroudColor = "#000000"
+    prompting4.style.backgroudColor ="red" ? prompting4.style.backgroudColor ="none" : prompting4.style.backgroudColor ="red"
   newForm.prompting = document.getElementById('promptingText4').innerText
   console.log(newForm.prompting)
 })
 
 let prompting5 = document.getElementById('prompting5')
 prompting5.addEventListener('click', (e) => {
-    document.getElementById('prompting5').style.backgroudColor = "#000000"
+    prompting5.style.backgroudColor ="red" ? prompting5.style.backgroudColor ="none" : prompting5.style.backgroudColor ="red"
   newForm.prompting = document.getElementById('promptingText5').innerText
   console.log(newForm.prompting)
 })
 
 let prompting2_1 = document.getElementById('prompting2-1')
 prompting2_1.addEventListener('click', (e) => {
-    document.getElementById('prompting2-1').style.backgroudColor = "#000000"
+    prompting2_1.style.backgroudColor ="red" ? prompting2_1.style.backgroudColor ="none" : prompting2_1.style.backgroudColor ="red"
   newForm.prompting2 = document.getElementById('prompting2-Text1').innerText
   console.log(newForm.prompting2)
 })
 
 let prompting2_2 = document.getElementById('prompting2-2')
 prompting2_2.addEventListener('click', (e) => {
-    document.getElementById('prompting2-2').style.backgroudColor = "#000000"
+    prompting2_2.style.backgroudColor ="red" ? prompting2_2.style.backgroudColor ="none" : prompting2_2.style.backgroudColor ="red"
   newForm.prompting2 = document.getElementById('prompting2-Text2').innerText
   console.log(newForm.prompting2)
 })
 
 let prompting2_3 = document.getElementById('prompting2-3')
 prompting2_3.addEventListener('click', (e) => {
-    document.getElementById('prompting2-3').style.backgroudColor = "#000000"
+    prompting2_3.style.backgroudColor ="red" ? prompting2_3.style.backgroudColor ="none" : prompting2_3.style.backgroudColor ="red"
   newForm.prompting2 = document.getElementById('prompting2-Text3').innerText
   console.log(newForm.prompting2)
 })
 
 let prompting2_4 = document.getElementById('prompting2-4')
 prompting2_4.addEventListener('click', (e) => {
-    document.getElementById('prompting2-4').style.backgroudColor = "#000000"
+    prompting2_4.style.backgroudColor ="red" ? prompting2_4.style.backgroudColor ="none" : prompting2_4.style.backgroudColor ="red"
   newForm.prompting2 = document.getElementById('prompting2-Text4').innerText
   console.log(newForm.prompting2)
 })
 
 let prompting2_5 = document.getElementById('prompting2-5')
 prompting2_5.addEventListener('click', (e) => {
-    document.getElementById('prompting2-5').style.backgroudColor = "#000000"
+    prompting2_5.style.backgroudColor ="red" ? prompting2_5.style.backgroudColor ="none" : prompting2_5.style.backgroudColor ="red"
   newForm.prompting2 = document.getElementById('prompting2-Text5').innerText
   console.log(newForm.prompting2)
 })
 
 let trials2_1 = document.getElementById('trials2-1')
 trials2_1.addEventListener('click', (e) => {
-    document.getElementById('trials2-1').style.backgroudColor = "#000000"
+    trials2_1.style.backgroudColor ="red" ? trials2_1.style.backgroudColor ="none" : trials2_1.style.backgroudColor ="red"
   newForm.trials2 = document.getElementById('trials2-Text1').innerText
   console.log(newForm.prompting2)
 })
 
 let trials2_2 = document.getElementById('trials2-2')
 trials2_2.addEventListener('click', (e) => {
-    document.getElementById('trials2-2').style.backgroudColor = "#000000"
+    trials2_2.style.backgroudColor ="red" ? trials2_2.style.backgroudColor ="none" : trials2_2.style.backgroudColor ="red"
   newForm.trials2 = document.getElementById('trials2-Text2').innerText
   console.log(newForm.trials2)
 })
 
 let trials2_3 = document.getElementById('trials2-3')
 trials2_3.addEventListener('click', (e) => {
-    document.getElementById('trials2-3').style.backgroudColor = "#000000"
+    trials2_3.style.backgroudColor ="red" ? trials2_3.style.backgroudColor ="none" : trials2_3.style.backgroudColor ="red"
   newForm.trials2 = document.getElementById('trials2-Text3').innerText
   console.log(newForm.trials2)
 })
@@ -520,14 +520,17 @@ function respond(data) {
   let id = data.id
   if (id) {
     showSuccess(id)
-    let name = newForm.clientId	  
-    sendNotification(id, name)	  
+    let name = newForm.clientId
+    let staff = newForm.staffName;
+    sendNotification(id, name, 'individual', 'not urgent')
+    sendNotification(id, staff, 'individual', 'not urgent')
+    sendNotification(id, 'admin', 'individual', 'not urgent')
   } else {
     showError(data.error)
   }
 }
 
-function showSuccess(formId) {
+function showSuccess(id) {
   document.getElementById('returnMessage').innerHTML = 'Form has been successfully submitted'
   printForm.style.display = 'inline';
   printForm.addEventListener('click', (e) => {
@@ -540,13 +543,15 @@ function showError(err) {
     document.getElementById('returnMessage').innerHTML = `An error occurred when submitting this form, which was ${err}. Please contact the administrator for help.`
 }
 
-async function sendNotification(id, client) {
+async function sendNotification(id, recipient, type, priority) {
   let message = `You have a new <br/><a href=phoenix-freedom-foundation-backend.webflow.io/completed-forms/iiss-session-note?id=${id}>Educational Consultation Summary</a>`
   console.log(message)
   const url = 'https://pffm.azurewebsites.net/notices'
   let notification = {
     'name': client,
-    'notice' : message 
+    'notice': message,
+    'type': type,
+    'priority': priority
   }
   const header = {
       'Content-Type': 'application/json',
