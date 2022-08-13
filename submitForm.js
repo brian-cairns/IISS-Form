@@ -54,110 +54,80 @@ serviceLocation.addEventListener('change', (e) => {
 let selfInjury1 = document.getElementById('selfInjury1')
 selfInjury1.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText1').innerText
-<<<<<<< HEAD
     selfInjury1.style.backgroundColor ="red" ? selfInjury1.style.backgroundColor ="none" : selfInjury1.style.backgroundColor ="red"
-=======
     document.getElementById('selfInjury1').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.selfInjury)
 })
 
 let selfInjury2 = document.getElementById('selfInjury2')
 selfInjury2.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText2').innerText
-<<<<<<< HEAD
     selfInjury2.style.backgroundColor ="red" ? selfInjury2.style.backgroundColor ="none" : selfInjury2.style.backgroundColor ="red"
-=======
     document.getElementById('selfInjury2').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.selfInjury)
 })
 
 let selfInjury3 = document.getElementById('selfInjury3')
 selfInjury3.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText3').innerText
-<<<<<<< HEAD
     selfInjury3.style.backgroundColor ="red" ? selfInjury3.style.backgroundColor ="none" : selfInjury3.style.backgroundColor ="red"
-=======
     document.getElementById('selfInjury3').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.selfInjury)
 })
 
 let selfInjury4 = document.getElementById('selfInjury4')
 selfInjury4.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText4').innerText
-<<<<<<< HEAD
     selfInjury4.style.backgroundColor ="red" ? selfInjury4.style.backgroundColor ="none" : selfInjury4.style.backgroundColor ="red"
-=======
     document.getElementById('selfInjury4').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.selfInjury)
 })
 
 let selfInjury5 = document.getElementById('selfInjury5')
 selfInjury5.addEventListener('click', (e) => {
     newForm.selfInjury = document.getElementById('selfInjuryText5').innerText
-<<<<<<< HEAD
     selfInjury4.style.backgroundColor ="red" ? selfInjury4.style.backgroundColor ="none" : selfInjury4.style.backgroundColor ="red"
-=======
     document.getElementById('selfInjury5').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.selfInjury)
 })
 
 let reportable1 = document.getElementById('reportable1')
 reportable1.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText1').innerText
-<<<<<<< HEAD
     reportable1.style.backgroundColor ="red" ? reportable1.style.backgroundColor ="none" : reportable1.style.backgroundColor ="red"
-=======
     document.getElementById('reportable1').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.reportable)
 })
 
 let reportable2 = document.getElementById('reportable2')
 reportable2.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText2').innerText
-<<<<<<< HEAD
     reportable2.style.backgroundColor ="red" ? reportable2.style.backgroundColor ="none" : reportable2.style.backgroundColor ="red"
-=======
     document.getElementById('reportable2').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.reportable)
 })
 
 let reportable3 = document.getElementById('reportable3')
 reportable3.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText3').innerText
-<<<<<<< HEAD
     reportable2.style.backgroundColor ="red" ? reportable2.style.backgroundColor ="none" : reportable2.style.backgroundColor ="red"
-=======
     document.getElementById('reportable3').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.reportable)
 })
 
 let reportable4 = document.getElementById('reportable4')
 reportable4.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText4').innerText
-<<<<<<< HEAD
     reportable4.style.backgroundColor ="red" ? reportable4.style.backgroundColor ="none" : reportable4.style.backgroundColor ="red"
-=======
     document.getElementById('reportable4').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.reportable)
 })
 
 let reportable5 = document.getElementById('reportable5')
 reportable5.addEventListener('click', (e) => {
     newForm.reportable = document.getElementById('reportableText5').innerText
-<<<<<<< HEAD
     reportable5.style.backgroundColor ="red" ? reportable5.style.backgroundColor ="none" : reportable5.style.backgroundColor ="red"
-=======
     document.getElementById('reportable5').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.reportable)
 })
 
@@ -170,110 +140,80 @@ dangerous.addEventListener('change', (e) => {
 let aggressive1 = document.getElementById('aggressive1')
 aggressive1.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText1').innerText
-<<<<<<< HEAD
     aggressive1.style.backgroundColor ="red" ? aggressive1.style.backgroundColor ="none" : aggressive1.style.backgroundColor ="red"
-=======
     document.getElementById('aggressive1').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.aggressive)
 })
 
 let aggressive2 = document.getElementById('aggressive2')
 aggressive2.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText2').innerText
-<<<<<<< HEAD
     aggressive2.style.backgroundColor ="red" ? aggressive2.style.backgroundColor ="none" : aggressive2.style.backgroundColor ="red"
-=======
     document.getElementById('aggressive2').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.aggressive)
 })
 
 let aggressive3 = document.getElementById('aggressive3')
 aggressive3.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText3').innerText
-<<<<<<< HEAD
     aggressive3.style.backgroundColor ="red" ? aggressive3.style.backgroundColor ="none" : aggressive3.style.backgroundColor ="red"
-=======
     document.getElementById('aggressive3').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.aggressive)
 })
 
 let aggressive4 = document.getElementById('aggressive4')
 aggressive4.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText4').innerText
-<<<<<<< HEAD
     aggressive4.style.backgroundColor ="red" ? aggressive4.style.backgroundColor ="none" : aggressive4.style.backgroundColor ="red"
-=======
     document.getElementById('aggressive4').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.aggressive)
 })
 
 let aggressive5 = document.getElementById('aggressive5')
 aggressive5.addEventListener('click', (e) => {
     newForm.aggressive = document.getElementById('aggressiveText5').innerText
-<<<<<<< HEAD
     aggressive5.style.backgroundColor ="red" ? aggressive5.style.backgroundColor ="none" : aggressive5.style.backgroundColor ="red"
-=======
     document.getElementById('aggressive5').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.aggressive)
 })
 
 let compliance1 = document.getElementById('compliance1')
 compliance1.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText1').innerText
-<<<<<<< HEAD
     compliance1.style.backgroundColor ="red" ? compliance1.style.backgroundColor ="none" : compliance1.style.backgroundColor ="red"
-=======
     document.getElementById('compliance1').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.compliance)
 })
 
 let compliance2 = document.getElementById('compliance2')
 compliance2.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText2').innerText
-<<<<<<< HEAD
     compliance2.style.backgroundColor ="red" ? compliance2.style.backgroundColor ="none" : compliance2.style.backgroundColor ="red"
-=======
     document.getElementById('compliance2').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.compliance)
 })
 
 let compliance3 = document.getElementById('compliance3')
 compliance3.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText3')
-<<<<<<< HEAD
     compliance3.style.backgroundColor ="red" ? compliance3.style.backgroundColor ="none" : compliance3.style.backgroundColor ="red"
-=======
     document.getElementById('compliance3').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.compliance)
 })
 
 let compliance4 = document.getElementById('compliance4')
 compliance4.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText4').innerText
-<<<<<<< HEAD
     compliance4.style.backgroundColor ="red" ? compliance4.style.backgroundColor ="none" : compliance4.style.backgroundColor ="red"
-=======
     document.getElementById('compliance4').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.compliance)
 })
 
 let compliance5 = document.getElementById('compliance5')
 compliance5.addEventListener('click', (e) => {
     newForm.compliance = document.getElementById('complianceText5').innerText
-<<<<<<< HEAD
     compliance5.style.backgroundColor ="red" ? compliance5.style.backgroundColor ="none" : compliance5.style.backgroundColor ="red"
-=======
     document.gtiElementById('compliance5').style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
     console.log(newForm.compliance)
 })
 
@@ -291,11 +231,8 @@ eat.addEventListener('change', (e) => {
 
 let goal1_1 = document.getElementById('goal1-1')
 goal1_1.addEventListener('click', ((e) => {
-<<<<<<< HEAD
     goal1_1.style.backgroundColor ="red" ? goal1_1.style.backgroundColor ="none" : goal1_1.style.backgroundColor ="red"
-=======
     goal1_1.style.backgroudColor ="red" ? goal1_1.style.backgroudColor ="none" : goal1_1.style.backgroudColor ="red"
->>>>>>> 575fb55409015b514fcdfb6c982b878e7ef8a603
   newForm.goal1 = document.getElementById('goal1-Text1').innerText
   console.log(newForm.goal1)
 }))
