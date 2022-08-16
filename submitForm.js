@@ -578,7 +578,7 @@ async function sendNotification(id, recipient, type, priority) {
   console.log(message)
   const url = 'https://pffm.azurewebsites.net/notices'
   let notification = {
-    'name': client,
+    'name': recipient,
     'notice': message,
     'type': type,
     'priority': priority
