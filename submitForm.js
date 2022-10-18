@@ -494,6 +494,30 @@ todaysDate.addEventListener('change', (e) => {
     console.log(newForm.todaysDate)
 })
 
+let dangerousNo = document.getElementById('dangerousNo')
+dangerousNo.addEventListener('click', (e) => {
+  dangerousNo.style.backgroundColor ="red" ? dangerousNo.style.backgroundColor ="none" : dangerousNo.style.backgroundColor ="red"
+  newForm.dangerous = 'no'
+  console.log(newForm.dangerous)
+})
+
+let dangerousYes = document.getElementById(dangerousYes)
+dangerousYes.addEventListener('click', (e) => {
+  dangerousYes.style.backgroundColor ="red" ? dangerousYes.style.backgroundColor ="none" : dangerousYes.style.backgroundColor ="red"
+})
+
+let hospitalizedNo = document.getElementById('hospitalizedNo')
+hospitalizedNo.addEventListener('click', (e) => {
+  hospitalizedNo.style.backgroundColor ="red" ? hospitalizedNo.style.backgroundColor ="none" : hospitalizedNo.style.backgroundColor ="red"
+  newForm.hospitalized = 'no'
+  console.log(newForm.hospitalize)
+})
+
+let hospitalizedYes = document.getElementById('hospitalizedYes')
+hospitalizedYes.addEventListener('click', (e) => {
+  hospitalizedYes.style.backgroundColor ="red" ? hospitalizedYes.style.backgroundColor ="none" : hospitalizedYesstyle.backgroundColor ="red"
+})
+
 document.getElementById('submit').addEventListener("click", async (event) => {
   submitForm(newForm, formName)
 })
@@ -518,10 +542,10 @@ async function submitForm(data, form) {
 }
 
 function respond(data) {
-  let id = data.id
+  let id = data.key
   if (id) {
     showSuccess(id)
-    let name = newForm.clientId
+    let name = newForm.clientName
     let staff = newForm.staffName;
     sendNotification(id, name, 'individual', 'not urgent')
     sendNotification(id, staff, 'individual', 'not urgent')
@@ -554,7 +578,7 @@ async function sendNotification(id, recipient, type, priority) {
   console.log(message)
   const url = 'https://pffm.azurewebsites.net/notices'
   let notification = {
-    'name': client,
+    'name': recipient,
     'notice': message,
     'type': type,
     'priority': priority
